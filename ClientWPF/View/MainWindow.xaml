@@ -1,0 +1,20 @@
+﻿<Window x:Class="ClientWPF.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="405">
+    <Grid Margin="0,0,0,-6">
+
+        <StackPanel HorizontalAlignment="Center" Margin="0,20">
+            <Button Margin="0,15" FontSize="20" Width="350" Height="50" Click="BTCreateID_Click" Focusable="False">Create ID</Button>
+            <Button Margin="0,15" FontSize="20" Width="350" Height="50" Click="BTConnectPort8000_Click" FontWeight="Bold" Focusable="False">Connect port 8000</Button>
+            <Button Margin="0,15" FontSize="20" Width="350" Height="50" Click="BTConnectPort8001_Click" FontWeight="Bold" Focusable="False" Content="Connect port 8001"/>
+            <Button Margin="0,15" FontSize="20" Width="350" Height="50" Click="BTExit_Click" Focusable="False">ВЫХОД</Button>
+        </StackPanel>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="ClientWPF.View.ConnectPort8000"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientWPF.View"
+        mc:Ignorable="d"
+        Title="ConnectPort8000" Height="169" Width="346">
+    <Grid>
+        <Label Content="Unique_Code:" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TB_Unique_Code" HorizontalAlignment="Left" Margin="93,59,0,0" Text="Null" TextWrapping="Wrap" VerticalAlignment="Top" Width="231"/>
+        <Label Content="Unique_Id:" HorizontalAlignment="Left" Margin="28,14,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TB_Unique_Id" HorizontalAlignment="Left" Margin="94,18,0,0" Text="Null" TextWrapping="Wrap" VerticalAlignment="Top" Width="230"/>
+        <Button x:Name="BT_to_get_the_code" Content="Получить код от сервера" HorizontalAlignment="Left" Margin="180,96,0,0" VerticalAlignment="Top" Click="BT_to_get_the_code_Click"/>
+        <Label x:Name="LableStatus" Content="Label" HorizontalAlignment="Left" Margin="11,88,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

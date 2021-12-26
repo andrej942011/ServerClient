@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Server2": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\logFiles\\"
+    }
+  }
+}
